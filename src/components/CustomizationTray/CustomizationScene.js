@@ -12,10 +12,10 @@ export const CustomizationScene = (scene) => {
 
   const customMesh = {
     sceneFilename: "nike_pegasus.babylon",
-    rootUrl: "/sneaker/textures/",
+    rootUrl: "./sneaker/textures/",
   };
 
-  const rootUrl = "/sneaker/textures/";
+  const rootUrl = "./sneaker/textures/";
 
   const [customizationSelection, setCustomizationSelection] = useState({
     Upper: "upper_01.png",

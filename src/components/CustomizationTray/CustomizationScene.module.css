@@ -1,0 +1,29 @@
+.customMenu {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 00px;
+  width: 600px;
+  height: 150px;
+  position: absolute;
+}
+
+.customizationTray-Container {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*     
+    style={{
+        flex: 1,
+        display: "flex",
+        position: "relative",
+        alignItems: "end",
+        justifyContent: "center",
+        width: "100%",
+        height: "100%", */

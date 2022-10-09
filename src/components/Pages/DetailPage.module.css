@@ -1,0 +1,125 @@
+.product {
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  /* background-color: rgb(83, 83, 228); */
+}
+/* 
+.
+.
+.
+.
+.
+.
+ */
+.main-container {
+  display: flex;
+  width: 100vw;
+
+  /* border: 2px dashed rgb(0, 255, 0); */
+}
+.product-container {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: calc(100% - 480px);
+  min-height: 800px;
+  /* border: 2px dashed #f0f; */
+}
+.details-container {
+  background-color: white;
+  margin-left: auto;
+  width: 480px;
+  /* border: 2px dashed #00f; */
+}
+/* 
+.
+.
+.
+.
+.
+.
+ */
+.product-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 20px;
+  width: 500px;
+  background-color: white;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+
+.tabs button {
+  width: 50%;
+  height: 60px;
+  background-color: rgb(243, 243, 243);
+  border-top: 0px;
+  border-bottom: 0px;
+  border: 0px;
+  border-color: black;
+}
+
+.tabs button:active {
+  background-color: white;
+}
+
+.sizes-container {
+  margin-top: 2rem;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sizes {
+  font-weight: 400;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  padding: 10px;
+  margin: 0.2rem;
+  width: 40px;
+  height: 30px;
+}
+
+.sizes:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.brand {
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.name {
+  font-size: large;
+  font-weight: 200;
+  color: rgb(3, 3, 3);
+}
+.description {
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(3, 3, 3);
+}
+
+.price {
+  padding-top: 0.5rem;
+  font-size: large;
+  font-weight: 600;
+  color: rgb(3, 3, 3);
+}

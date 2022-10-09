@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  margin: 10px 10px;
+  outline: 1px solid rgb(151, 151, 151);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.circle2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0px 20px;
+  outline: 1px solid rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.slideNum {
+  color: rgba(0, 0, 0, 0.452);
+  font-weight: 400;
+}

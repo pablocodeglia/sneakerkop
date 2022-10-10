@@ -1,10 +1,4 @@
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-  useState,
-} from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import dummyCatalog from "../../data/dummyCatalog.json";
 
 const CartContext = createContext();

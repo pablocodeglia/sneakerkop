@@ -1,7 +1,14 @@
-# Getting Started with Create React App
+# SneakerKop
+React + BabylonJS personal project/exercise. Simple sneaker store application using React's Hooks, a cart system, and a 3d sneaker customization system using [React-BabylonJS](https://github.com/brianzinn/react-babylonjs)'s declarative syntax. (Responsive features not implemented ATM)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live demo](https://pablocodeglia.github.io/sneakerkop)
+ 
+ 
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+
+  
+---
 ## Available Scripts
 
 In the project directory, you can run:

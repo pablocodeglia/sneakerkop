@@ -3,4 +3,4 @@
 
 ##### **Requirements**
 
-Sneaker store application study project, with cart system and a sneaker customization feature, developed with React to test BabylonJS, React Hooks, Router, etc.
+Sneaker store application study project, with cart system and a sneaker customization feature, developed with React to test BabylonJS, React Hooks, Router, etc (currently not responsive)

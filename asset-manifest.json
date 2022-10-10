@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sneakerkop/static/css/main.7d1a7f2e.css",
-    "main.js": "/sneakerkop/static/js/main.39849086.js",
+    "main.js": "/sneakerkop/static/js/main.cdd7ba8b.js",
     "index.html": "/sneakerkop/index.html",
     "main.7d1a7f2e.css.map": "/sneakerkop/static/css/main.7d1a7f2e.css.map",
-    "main.39849086.js.map": "/sneakerkop/static/js/main.39849086.js.map"
+    "main.cdd7ba8b.js.map": "/sneakerkop/static/js/main.cdd7ba8b.js.map"
   },
   "entrypoints": [
     "static/css/main.7d1a7f2e.css",
-    "static/js/main.39849086.js"
+    "static/js/main.cdd7ba8b.js"
   ]
 }

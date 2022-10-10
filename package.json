@@ -2,8 +2,10 @@
   "name": "babylon_product_viz",
   "version": "0.1.0",
   "private": true,
-  "engines": {"node": "16.x"},
-  "homepage": "https://pablocodeglia.github.io/sneakerkop",
+  "engines": {
+    "node": "16.x"
+  },
+  "homepage": "https://pablocodeglia.github.io/sneakerkop/",
   "dependencies": {
     "@babylonjs/core": "^5.26.1",
     "@babylonjs/gui": "^5.26.1",

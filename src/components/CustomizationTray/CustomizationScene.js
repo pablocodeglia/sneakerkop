@@ -10,12 +10,12 @@ export const CustomizationScene = (scene) => {
   const cameraRef = useRef();
   const [activeCustomTab, setCustomActiveTab] = useState("Lining");
 
+  const rootUrl = "/sneakerkop/sneaker/textures/";
+
   const customMesh = {
     sceneFilename: "nike_pegasus.babylon",
-    rootUrl: "./sneaker/textures/",
+    rootUrl: rootUrl,
   };
-
-  const rootUrl = "./sneaker/textures/";
 
   const [customizationSelection, setCustomizationSelection] = useState({
     Upper: "upper_01.png",
@@ -27,6 +27,7 @@ export const CustomizationScene = (scene) => {
     Laces: "laces_01.png",
   });
   const applyMaterials = () => {
+    console.log(loadedModelRef.current.material.subMaterials[0]);
     let index = productInfo.map((obj) => obj.name).indexOf(activeCustomTab);
     LoadImage(`${rootUrl}${customizationSelection[activeCustomTab]}`, (img) => {
       loadedModelRef.current.material.subMaterials[index].albedoTexture =
@@ -35,6 +36,9 @@ export const CustomizationScene = (scene) => {
   };
 
   const onModelLoaded = (model) => {
+    // Set Camera Zoom Limit
+    cameraRef.current.lowerRadiusLimit = 2.5;
+    cameraRef.current.upperRadiusLimit = 5;
     loadedModelRef.current = model.meshes[0];
     applyMaterials();
     gsap.to(cameraRef.current, {

@@ -14,8 +14,10 @@ function App() {
     <>
       <BrowserRouter>
         <Nav />
+
         <Routes>
           <Route path="/" element={<VidBG />} />
+          <Route index path="/sneakerkop" element={<VidBG />} />
           <Route path="/catalog/" element={<Catalog />} />
           <Route path="/cart/" element={<Cart />} />
           <Route path="/product/:id" element={<DetailPage />} />
